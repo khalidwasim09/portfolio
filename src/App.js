@@ -106,9 +106,7 @@ const SKILLS = {
 };
 
 export default function Portfolio() {
-  // const [activeSection, setActiveSection] = useState("about");
   const [selectedProject, setSelectedProject] = useState(null);
-  // const [navOpen, setNavOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [visibleCards, setVisibleCards] = useState(new Set());
   const cardRefs = useRef({});
@@ -136,7 +134,6 @@ export default function Portfolio() {
 
   const scrollTo = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-    // setNavOpen(false);
   };
 
   const styles = `
