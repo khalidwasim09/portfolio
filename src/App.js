@@ -136,7 +136,7 @@ export default function Portfolio() {
 
   const scrollTo = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-    setNavOpen(false);
+    // setNavOpen(false);
   };
 
   const styles = `
