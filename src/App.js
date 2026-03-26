@@ -646,7 +646,7 @@ export default function Portfolio() {
           <div className="contact-links">
             <a className="contact-link" href="mailto:khalidwasimofficial@gmail.com">✉ Email Me</a>
             <a className="contact-link" href="https://github.com/khalidwasim09" target="_blank" rel="noreferrer">⌥ GitHub</a>
-            <a className="contact-link" href="https://linkedin.com/in/khalidwasim" target="_blank" rel="noreferrer">⬡ LinkedIn</a>
+            <a className="contact-link" href="www.linkedin.com/in/khalid-wasim-67a284230" target="_blank" rel="noreferrer">⬡ LinkedIn</a>
           </div>
         </div>
       </section>
