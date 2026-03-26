@@ -106,9 +106,9 @@ const SKILLS = {
 };
 
 export default function Portfolio() {
-  const [activeSection, setActiveSection] = useState("about");
+  // const [activeSection, setActiveSection] = useState("about");
   const [selectedProject, setSelectedProject] = useState(null);
-  const [navOpen, setNavOpen] = useState(false);
+  // const [navOpen, setNavOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [visibleCards, setVisibleCards] = useState(new Set());
   const cardRefs = useRef({});
